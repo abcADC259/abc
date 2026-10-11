@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>英语资料分享</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>英语B级加油</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        .container{
+            width: 900px;
+            margin: 30px auto;
+            text-align:center;
+        }
+        img{
+            width:100%;
+            border-radius:10px;
+        }
+        button{
+            margin-top:20px;
+            padding:12px 30px;
+            font-size:18px;
+            background:#2b78e4;
+            color:white;
+            border:none;
+            border-radius:8px;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 替换成你的图片地址 -->
+        <img src="E:\English text\VS Code 文件访问代码生成 (1).png" alt="英语B级考试一定能考过">
+        <br>
+        <button id="audioBtn">点击播放背景音乐</button>
+        <audio id="bgMusic" src=7667167188792396581.mp3 loop>
+    </div>
+
+    <script>
+        const audio = document.getElementById('bgMusic');
+        const btn = document.getElementById('audioBtn');
+        btn.onclick = function(){
+            if(audio.paused){
+                audio.play();
+                btn.innerText = "暂停音乐";
+            }else{
+                audio.pause();
+                btn.innerText = "播放音乐";
+            }
+        }
+        
+    </script>
+    <!-- 语法：<a href="目标网址">显示的文字</a> -->
+<a href="https://web.ceweilai.cn/Course/Index" target="_blank">未来教育（模拟试卷）</a>
+<a href="https://www.tmjywx.com/" target="_blank">天明教育（真题卷）</a>
+<style>
+        .download-btn{
+            padding:10px 20px;
+            background:#2563eb;
+            color:#fff;
+            text-decoration:none;
+            border-radius:6px;
+            display:inline-block;
+        }
+        .download-btn:hover{
+            background:#1d4ed8;
+        }
+    </style>
+</head>
+<body>
+    <h3>学习资料:</h3>
+    <!-- href：服务器上文件的路径；download：下载保存时的文件名 -->
+    <a class="download-btn" href=英语AB级600高频词汇.pdf download="学习资料.pdf">26英语AB级高频短语七页纸</a>
+    <a class="download-btn" href=英语AB级考试技巧总结.pdf download="学习资料.pdf">英语AB级考试技巧总结</a>
+    <a class="download-btn" href=英语AB级语法概要.pdf download="学习资料.pdf">英语AB级语法概</a>
+    <a class="download-btn" href=英语AB级重点语法总结.pdf download="学习资料.pdf">英语AB级重点语法总结</a>
+    <a class="download-btn" href=26英语AB级高频短语七页纸(1).docx download="学习资料.pdf">26英语AB级高频短语七页纸</a>
+    <a class="download-btn" href=26年英语AB级考试必备万能作文句型(1).docx download="学习资料.pdf">26年英语AB级考试必备万能作文句型</a>
+
+</body>
+</html>
